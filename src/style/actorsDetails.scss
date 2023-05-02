@@ -1,0 +1,50 @@
+#actorsDetails{
+  padding: 30px 0;
+  .actorsDetails{
+    padding: 0;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: flex-start;
+   &--info{
+     img{
+       width: 300px;
+       border-radius: 20px ;
+       height: 470px;
+     }
+     h3{
+       font-size: 22px;
+       font-weight: 500;
+       padding: 40px 0 20px 0;
+     }
+     h4{
+       font-size: 15px;
+       padding: 20px 0 0 0;
+     }
+     h5{
+       padding: 5px 0 ;
+       font-size: 17px;
+       font-weight: 400;
+     }
+   }
+    &--card{
+      padding: 0  0 0 30px;
+
+      h1{
+        font-size: 34px;
+        padding: 20px 0;
+      }
+      h3{
+        font-size: 19px;
+        //padding: 20px 0 0 0  ;
+        font-weight: 500;
+      }
+      p{
+        width: 800px;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 20px 0 ;
+      }
+
+    }
+  }
+}

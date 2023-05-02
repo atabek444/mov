@@ -1,0 +1,61 @@
+#header{
+  background: #000;
+  padding: 10px 0;
+  //margin: 0 0 40px 0 ;
+  //position:
+  // fixed;
+  width: 100%;
+  z-index: auto;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--nav{
+      select{
+        padding: 8px 15px;
+        margin-left: 20px;
+        outline: none;
+        border-radius: 10px;
+        option{
+          border-radius: 0;
+          font-size: 14px;
+          //background: rgba(0, 0, 0, 0.82);
+        }
+      }
+      button{
+        background: #9a0909;
+        color: white;
+        transition: 0.5s;
+        &:hover{
+          transform: scale(1.1);
+          background: none;
+          border: 2px solid #9a0909;
+
+        }
+      }
+      input{
+        padding: 8px 20px ;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin: 0 10px 0 0 ;
+      }
+    }
+    &--item{
+      h1{
+        color: #9a0909;
+        font-weight: 800;
+        margin-right: 30px;
+      }
+      display: flex;
+      align-items: center;
+      a{
+        padding: 0 15px;
+        color: white;
+      }
+       .active {
+        color: #9a0909;
+      }
+    }
+  }
+}

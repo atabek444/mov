@@ -1,0 +1,16 @@
+#actorMovies{
+
+  padding: 40px 0 0 0 ;
+  .actorMovies{
+    display: flex;
+    overflow-x: auto;
+    gap : 2rem ;
+    width: 800px;
+    &--nav {
+      img{
+        width: 130px;
+        height: 200px;
+      }
+    }
+  }
+}

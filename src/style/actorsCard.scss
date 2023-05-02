@@ -1,0 +1,27 @@
+#actor{
+  padding: 40px 0;
+  .actor{
+h1{
+  padding: 20px 0;
+}
+    &--card{
+      display: flex;
+      //justify-content: center;
+      gap: 3rem;
+      //flex-wrap: wrap;
+      overflow-x: auto;
+
+      div{
+        width: 100px;
+        //marginpx;
+      }
+      img{
+        width: 100px;
+
+      }
+      h4{
+        color: darkred;
+      }
+    }
+  }
+}

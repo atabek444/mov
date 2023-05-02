@@ -1,0 +1,31 @@
+@import "style/header";
+@import "style/popular";
+@import "style/movieCard";
+@import "style/topRated";
+@import "style/moviDetails";
+@import "style/footer";
+@import "style/actorsCard";
+@import "style/movie";
+@import "style/actorsDetails";
+@import "style/actorMovies";
+@import "style/search";
+ *{
+   margin: 0;
+   padding: 0;
+ }
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+body{
+  //color: white;
+  //background: rgba(9, 9, 9, 0.98);
+}
